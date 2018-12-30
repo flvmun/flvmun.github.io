@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.add-note:after{
+	height: 0;
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.add-note .text{
+	margin: 10px auto;
+	resize: vertical;
+	overflow: hidden;
+}
+
+.add-note .date, .add-note .time{
+	margin: 10px auto;
+}
+
+.add-note .date .badge-today, .add-note .date .badge:hover{
+	padding: 5px;
+	border-radius: 50%;
+	background-color: #DC3023!important;
+	color: #fff;
+	cursor: pointer;
+}
+
+.note .date span{
+	margin-left: 5px;
+}
+
+.add-note .submit{
+	float: right;
+}
+
+.list-notes .note{
+	border: 1px solid #F2F1EF;
+	border-radius: 5px;
+	margin: 10px auto;
+	padding: 5px;
+}
+
+.list-notes .note .date i{
+	font-size: 15px;
+	color: #ABB7B7;
+	margin: 0 5px;
+}
